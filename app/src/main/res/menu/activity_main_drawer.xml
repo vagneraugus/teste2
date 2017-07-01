@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Canais">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/cat_suporte"
+                android:onClick="contato"
+                android:title="Contato" />
+        </menu>
+    </item>
+    <item android:title="Categorias">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/cat_criancas"
+                android:title="Crianças" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/cat_desenhos"
+                android:title="Desenhos"
+                android:onClick="page_desenhos"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/cat_gospel"
+                android:title="Gospel" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/cat_musicais"
+                android:title="Musicais" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/cat_risadas"
+                android:title="Musicais" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/cat_semnocao"
+                android:title="Sem noção" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/cat_seriados"
+                android:title="Seriados" />
+            <item
+                android:id="@+id/nav_tv"
+                android:icon="@drawable/cat_tv"
+                android:title="Tv"
+                android:onClick="tv"/>
+        </menu>
+    </item>
+
+</menu>
